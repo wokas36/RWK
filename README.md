@@ -4,7 +4,7 @@ This is a Python3 implementation of RWK. This framework provides a novel optimal
 
 ### Prerequisites
 
-* Torch (>= 0.4)
+* Torch (>= 1.7.1)
 * Networkx (>= 2.2)
 * POT [Python Optimal Transport] (>=0.7.0)
 * Sklearn (>= 0.19.1)
@@ -46,7 +46,7 @@ We use the nested cross validation setup to evaluate our method.
 * graph.py - Compute the structural similarity matrix between two graphs by node embeddings.
 * attentionwalk.py - Attention Walk Layer for node embeddings.
 * attention_utils - Calculate the probability transition tensor by heat kernel random walk.
-* utils.py - Generate log files and split dataset. 
+* utils.py - Generate log files and other utility functions. 
 * data_loader.py - Data preprocessing and loading the data.
 
 ### Citation
