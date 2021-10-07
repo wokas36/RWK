@@ -1,4 +1,4 @@
-# RWK: Regularized Wasserstein Graph Kernels
+# RWK: Regularized Wasserstein Kernel for Graphs
 
 This is a Python3 implementation of RWK. This framework provides a novel optimal transport distance metric, namely Regularized Wasserstein Kernels (RWK) for graphs, that enables fast computations of distances between graphs under the preservation of feature and structural properties.
 
