@@ -37,7 +37,7 @@ We use the nested cross validation setup to evaluate our method.
 * rjw_cross_validation.ipynb - RWK cross validation (ipython notebook version).
 * sinkhorn_algorithms.py - Sinkhorn-knopp algorithm for regularized optimal transport (OT) problem and return the OT matrix.
 * scg_optimizer.py - Solve the regularized OT problem with the Sinkhorn Conditional Gradient (SCG) and Line-search algorithms.
-* ot_distances.py - Compute Wasserstein distance on graph1 and graph2 by concatenating the original graph signals + local variations of graph signals.
+* ot_distances.py - Compute Wasserstein distance between source graph and target graph by concatenating the original graph signals with local variations.
 * custom_svc.py - Create a SVM classifier over the RW distance using the proposed kernel e^{-\gamma*RW}.
 * RJW.py - Compute Gromov-Wasserstein distance and local barycentric Wasserstein distance between two graphs and their gradients.
 * graph.py - Compute the structural similarity matrix between two graphs by node embeddings.
