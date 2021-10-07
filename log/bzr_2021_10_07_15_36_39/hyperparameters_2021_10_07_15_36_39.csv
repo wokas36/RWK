@@ -1,0 +1,19 @@
+dataset_name,bzr
+data_path,../data/
+n_inner,10
+n_outer,10
+distances_path,../distances/
+optionnal_name,rjw
+log_dir,../log/
+wl_feature,0
+attributes,True
+feature_metric,hamming_dist
+structure_metric,random_walk
+Csvm,10
+gamma,1
+verbose,1
+amijo,True
+alpha,[1]
+beta,[0.0001]
+index,{'mutag': 0, 'ptc': 1, 'cox2': 2, 'bzr': 3, 'enzymes': 4, 'protein': 5, 'nci1': 6, 'nci109': 7, 'dd': 8, 'collab': 9, 'bzr_md': 10, 'cox2_md': 11}
+automatic_cv_alpha,False
