@@ -27,9 +27,9 @@ datasets for both graphs settings: (1) graphs with discrete attributes; (2) grap
 
 We consider three settings in our experiments: 
 
-(a) `RWK-0` - without using local variations
-(b) `RWK-1` - with using 1-hop local variations
-(c) `RWK` - with using 2-hop local variations (default setting)
+* `RWK-0` - without using local variations
+* `RWK-1` - with using 1-hop local variations
+* `RWK` - with using 2-hop local variations (default setting)
 
 We use the nested cross validation setup to evaluate our method.
 
