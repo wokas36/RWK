@@ -23,7 +23,9 @@ You can find more details of our datasets from `DATASET_DESCRIPTIONS.md` file.
 We have evaluated our method using twelve datasets against 16 state-of-the-art baselines. 
 
 The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark 
-datasets for both graphs settings: (1) graphs with discrete attributes; (2) graphs with continuous attributes.
+datasets for two different graph settings: 
+* graphs with discrete attributes 
+* graphs with continuous attributes
 
 We consider three settings in our experiments: 
 
