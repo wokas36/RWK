@@ -39,7 +39,7 @@ We use the nested cross validation setup to evaluate our method.
 * scg_optimizer.py - Solve the regularized OT problem with the Sinkhorn Conditional Gradient (SCG) and Line-search algorithms.
 * ot_distances.py - Compute Wasserstein distance on graph1 and graph2 by concatenating the original graph signals + local variations of graph signals.
 * custom_svc.py - Create a SVM classifier over the RW distance using the proposed kernel e^{-\gamma*RW}.
-* RJW.py - Compute Gromov-Wasserstein distance and RW distance between two graphs.
+* RJW.py - Compute Gromov-Wasserstein distance and local barycentric Wasserstein distance between two graphs and their gradients.
 * graph.py - Compute the structural similarity matrix between two graphs by node embeddings.
 * attentionwalk.py - Attention Walk Layer for node embeddings.
 * attention_utils - Calculate the probability transition tensor by heat kernel random walk.
@@ -50,12 +50,14 @@ We use the nested cross validation setup to evaluate our method.
 
 Please cite our paper if you use this code in your research work.
 
+```
 @inproceedings{asiri2021rwk,
   title={A Regularized Wasserstein Framework for Graph Kernels}, 
-  author={Wijesinghe, Asiri and Wang, Qing}, 
+  author={Asiri Wijesinghe, Qing Wang and Stephen Gould}, 
   booktitle={IEEE International Conference on Data Mining (ICDM)},
   year={2021}
 }
+```
 
 ### License
 
