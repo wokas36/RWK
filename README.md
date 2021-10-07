@@ -26,6 +26,7 @@ The experimental results show that our method consistently outperforms all state
 datasets for both graphs settings: (1) graphs with discrete attributes; (2) graphs with continuous attributes.
 
 We consider three settings in our experiments: 
+
 (a) `RWK-0` - without using local variations
 (b) `RWK-1` - with using 1-hop local variations
 (c) `RWK` - with using 2-hop local variations (default setting)
