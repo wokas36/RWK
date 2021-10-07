@@ -1,0 +1,43 @@
+2021-10-07 15:39:54,105 INFO Let the Outer CV Begin for rjw_cox2_feature_metric_hamming_dist_structure_metric_random_walkrjw
+2021-10-07 15:39:54,106 INFO n_outer : 10
+2021-10-07 15:39:54,106 INFO n_inner : 10
+2021-10-07 15:39:54,899 INFO ############ Begin nested CV ############
+2021-10-07 15:39:54,899 INFO Inner : 10
+2021-10-07 15:39:54,899 INFO Outer : 10
+2021-10-07 15:39:54,899 INFO params : [{'alpha': [1], 'C': [10], 'gamma': [1], 'beta': [0.0001], 'features_metric': ['hamming_dist'], 'method': ['random_walk'], 'wl': [0], 'amijo': [True]}]
+2021-10-07 15:39:54,899 INFO Begin precomputing all distances matrices
+2021-10-07 15:39:54,900 INFO 1 matrices to fit...
+2021-10-07 15:39:54,972 INFO One distance done
+2021-10-07 15:39:54,972 INFO ...Done
+2021-10-07 15:41:43,916 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:43,930 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:43,931 INFO ############ One outer Done ############
+2021-10-07 15:41:54,258 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:54,267 INFO Accuracy 87.2340425531915
+2021-10-07 15:41:54,267 INFO ############ One outer Done ############
+2021-10-07 15:41:54,357 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:54,366 INFO Accuracy 87.2340425531915
+2021-10-07 15:41:54,366 INFO ############ One outer Done ############
+2021-10-07 15:41:55,804 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:55,813 INFO Accuracy 78.72340425531915
+2021-10-07 15:41:55,813 INFO ############ One outer Done ############
+2021-10-07 15:41:56,164 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:56,178 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:56,179 INFO ############ One outer Done ############
+2021-10-07 15:41:56,280 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:56,289 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:56,289 INFO ############ One outer Done ############
+2021-10-07 15:41:56,370 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:56,379 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:56,379 INFO ############ One outer Done ############
+2021-10-07 15:41:56,458 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:56,467 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:56,467 INFO ############ One outer Done ############
+2021-10-07 15:41:56,548 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:56,556 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:56,556 INFO ############ One outer Done ############
+2021-10-07 15:41:56,637 INFO Best params : {'C': 10, 'alpha': 1, 'amijo': True, 'beta': 0.0001, 'features_metric': 'hamming_dist', 'gamma': 1, 'method': 'random_walk', 'wl': 0}
+2021-10-07 15:41:56,645 INFO Accuracy 80.85106382978722
+2021-10-07 15:41:56,645 INFO ############ One outer Done ############
+2021-10-07 15:41:56,645 INFO Nested mean score 81.91489361702126
+2021-10-07 15:41:56,646 INFO Nested std score 2.7330282082266257
